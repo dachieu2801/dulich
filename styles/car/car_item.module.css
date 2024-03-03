@@ -1,0 +1,123 @@
+
+.card {
+    background: #FFF;
+    border-radius: 16px;
+    border: 0.5px solid var(--gray-4, #AEAAAF);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: auto;
+    font-size: 16px;
+  }
+  .car_image img {
+    border-radius: 8px;
+    padding: 5px;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #ccc;
+  }
+  .car_info {
+    padding: 16px;
+  }
+  .car_title {
+    color: var(--text, #1C1B1E);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  .features {
+    display: flex;
+    width: 326px;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .feature{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .feature img{
+   float: left;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  .feature p{
+    color: var(--gray-8, #48464A);
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .price {
+    color: #007bff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  .price::after {
+    content: '₫/Km';
+  }
+  .btn {
+    display: inline-flex;
+    padding: 0px 8px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #D2EAF9;
+  }
+  .btn p{
+    color: var(--logo, #136397);
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+  }
+  .hotel_money {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+    width: 100%;
+}
+.money_item {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.money_item p {
+    color: var(--error, #DB242D);
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; 
+}
+.money_item span{
+    color: var(--gray-8, #48464A);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.list_car {
+    /* display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+    padding: 10px; */
+}
+
+.list_car div[class~="slick-slide"]{
+    padding: 12px;
+}
+
+.card{
+    margin: 16px 0;
+}

@@ -1,0 +1,692 @@
+.box_search {
+  background-color: white;
+  max-width: 1210px;
+  padding: 24px;
+  border-radius: 24px;
+  box-shadow: 0px 32px 74px -12px rgba(0, 0, 0, 0.25);
+  margin: 16px auto;
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  position: relative;
+}
+
+.block_restaurant {
+  max-width: 1210px;
+  margin: auto;
+}
+
+.block_restaurant_title {
+  margin: 24px 0 8px 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: unset;
+}
+
+.count_restaurant {
+  font-size: 24px;
+  font-family: "Roboto-Medium";
+}
+
+.block_bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 37px;
+  gap: 24px;
+}
+
+.block_filter {
+  width: 284px;
+  height: fit-content;
+  margin-top: 57px;
+  border-radius: 16px;
+  border: 0.5px solid var(--gray-4, #aeaaaf);
+}
+
+.block_filter_top {
+  margin: 20px 0 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+}
+
+.block_filter_top span {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.block_range_price,
+.block_type_restaurant {
+  padding: 16px 16px 30px 16px;
+  border-top: 1px solid #e6e1e6;
+}
+
+.range_price_top,
+.type_restaurant_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.range_price_top1,
+.type_restaurant_top1 {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.range_price_top1 span,
+.type_restaurant_top1 span {
+  font-weight: 700;
+}
+
+.range_price_option {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.list_type_restaurant {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.type_restaurant {
+  display: flex;
+  gap: 8px;
+}
+
+.type_restaurant input {
+  width: 24px;
+}
+
+.type_restaurant label {
+  display: flex;
+  gap: 8px;
+}
+
+.type_restaurant img {
+  width: 20px;
+}
+
+.block_filter_bottom {
+  border-top: 1px solid #e6e1e6;
+}
+
+.block_expand {
+  margin: 16px auto;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.block_expand span {
+  color: #136397;
+}
+
+.block_sort {
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.sort {
+  width: fit-content;
+  padding: 8px 16px;
+  font-family: "Roboto-Medium";
+  border: none;
+  background-color: unset;
+  font-size: 20px;
+}
+
+.active_sort {
+  border-bottom: 2px solid #136397;
+  color: #136397;
+}
+
+.block_list_restaurant {
+  width: calc(100% - 310px);
+}
+
+.list_restaurant {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.restaurant {
+  width: 100%;
+  height: fit-content;
+  padding: 8px;
+  border-radius: 16px;
+  border: 0.5px solid var(--gray-4, #aeaaaf);
+  margin-bottom: 8px;
+  display: flex;
+  gap: 16px;
+}
+
+.block_img {
+  width: 386px;
+  position: relative;
+}
+
+.block_img img {
+  border-radius: 8px;
+}
+
+.block_subdetail {
+  display: flex;
+  gap: 40px;
+  margin: 8px 0;
+}
+
+.vehicle img {
+  width: 14px;
+}
+
+.restaurant_customer,
+.restaurant_long,
+.vehicle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.time_start {
+  margin-bottom: 20px;
+}
+
+.block_detail {
+  flex-grow: 1;
+}
+
+@media (max-width: 1024px) {
+  .block_restaurant {
+    padding: 0 32px;
+  }
+
+  .block_filter {
+    width: 250px;
+  }
+
+  .restaurant {
+    display: block;
+  }
+
+  .block_img {
+    width: 100%;
+    height: 318px;
+  }
+
+  .block_subdetail {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .restaurant_customer,
+  .restaurant_long {
+    width: 40%;
+  }
+
+  .vehicle {
+    margin-top: 8px;
+  }
+
+  .block_list_restaurant {
+    width: calc(100% - 270px);
+  }
+}
+
+@media (max-width: 768px) {
+  .block_img {
+    height: 260px;
+  }
+
+  .block_bottom {
+    gap: 16px;
+  }
+
+  .block_list_restaurant {
+    width: calc(100% - 260px);
+  }
+}
+
+@media (max-width: 450px) {
+  .block_img {
+    height: 230px;
+  }
+
+  .block_bottom {
+    display: block;
+  }
+
+  .block_list_restaurant {
+    width: 100%;
+  }
+
+  .block_filter {
+    width: 100%;
+    margin: 0 0 30px 0;
+    border: none;
+  }
+
+  .list_restaurant {
+    gap: 16px;
+  }
+
+  .restaurant_customer,
+  .restaurant_long {
+    width: 50%;
+  }
+
+  .block_filter_bottom {
+    display: none;
+  }
+}
+
+/* Css box open time */
+.box_opentime {
+  z-index: 1;
+  position: absolute;
+  top: 24px;
+  right: 0px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  width: 300px;
+}
+
+.body_opentime {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+
+.body_opentime h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.item_opentime {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+}
+
+.txt_opentime {
+  width: 100px;
+}
+
+.opentime {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+/* End css box opentime */
+
+/* CSS Pagination */
+.pagination {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.list_page {
+  display: flex !important;
+  gap: 12px;
+}
+
+.list_page .page_number {
+  width: 40px;
+  background-color: white;
+  border-radius: 8px;
+  color: #605d62;
+  border: 1px solid #605d62;
+  text-align: center;
+}
+
+.list_page .page_number p {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.list_page .page_active {
+  border: #136397;
+  background-color: #136397;
+}
+
+.list_page .page_active p {
+  color: white;
+}
+
+.pagination div[class~="custom-prev-arrow"] {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.pagination div[class~="custom-next-arrow"] {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* .pagination div[class~="slick-list"] {
+  height: 420px;
+} */
+
+/* .pagination div[class~="slick-track"] {
+  height: 100%;
+} */
+
+.current_slide {
+  bottom: 50px;
+  background-color: #136397;
+}
+
+.img_xt {
+  width: 24px;
+  height: 24px;
+}
+
+.btn_xt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 99px;
+}
+
+.btn_xt span {
+  font-family: "Roboto-Medium";
+  color: rgba(19, 99, 151, 1);
+}
+
+@media only screen and (min-width: 1920px) {
+  .slide_home {
+    padding-left: 357px;
+  }
+}
+
+@media only screen and (min-width: 1520px) {
+  .slide_home {
+    padding-left: 157px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .slide_home {
+    padding-left: 100px;
+    padding-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .slide_home {
+    padding: 40px;
+  }
+
+  .pagination {
+    width: 48%;
+  }
+
+  .current_slide {
+    bottom: 0px;
+  }
+
+  .btn_xt {
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .desciption_slide {
+    display: none;
+  }
+
+  .slide_home {
+    flex-direction: column;
+    height: fit-content;
+  }
+}
+/* End CSS Pagination */
+
+/* CSS Nhà hàng xung quanh Homestay */
+.main_restaurant {
+  padding: 80px 0;
+}
+
+.title_restaurant {
+  color: #1c1b1e;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px;
+  padding-left: 133px;
+}
+
+.menu_slide {
+  display: flex;
+  overflow-x: hidden;
+}
+
+.main_menu {
+  display: flex;
+  gap: 24px;
+  overflow-x: visible;
+}
+
+.imageContainer {
+  gap: 20px;
+}
+
+.item_menu {
+  display: flex !important;
+  flex-direction: column;
+  color: black;
+  width: 181px;
+  border-radius: 15px;
+  background: white;
+  border: 1px solid white;
+}
+
+.taco {
+  width: 181px;
+  height: 181px;
+  border-radius: 15px;
+}
+
+.title_menu {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  color: var(--text, #1c1b1e);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.body {
+  padding-bottom: 64px;
+  width: 100%;
+  margin: auto;
+}
+
+.btn_slide_meunu {
+  background-color: white;
+  border: none;
+  width: 36px;
+  height: 25px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+.custom_slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  padding: 40px 70px 0;
+}
+
+/* CSS Xem gần đây */
+.list {
+  padding-top: 40px;
+}
+
+.suggest {
+  padding: 40px 112px 40px 136px;
+  background: #e8f4fc;
+}
+
+.sug_txt {
+  font-size: 30px;
+  font-family: "Roboto-Medium";
+  line-height: 35px;
+}
+
+.item {
+  width: 284px !important;
+  display: flex !important;
+  flex-direction: column;
+  gap: 10px;
+  background: #ffffff;
+  /* box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15); */
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.item_slide {
+  width: 100%;
+  height: 177px;
+}
+
+.item_body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px 8px;
+}
+
+.title_hotel {
+  font-size: 18px;
+  line-height: 24px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-family: "Roboto-Medium";
+  text-align: justify;
+}
+
+.item_body_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list_star {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: start;
+}
+
+.type_hotel {
+  border-radius: 8px;
+  border: 1px solid #136397;
+  padding: 4px 8px;
+  width: fit-content;
+  font-size: 12px;
+  color: #136397;
+}
+
+.img_star {
+  width: 24px;
+  height: 24px;
+}
+
+.address {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 8px;
+}
+
+.img_add {
+  width: 24px;
+  height: 24px;
+}
+
+.address p {
+  width: 236px;
+  font-size: 16px;
+  line-height: 24px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.list button[class~="slick-arrow"]::before {
+  display: none;
+}
+
+.list ul[class~="slick-dots"] {
+  display: flex !important;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.list ul[class~="slick-dots"] li {
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list ul[class~="slick-dots"] li button::before {
+  display: none;
+}
+
+.list ul[class~="slick-dots"] li[class~="slick-active"] button::before {
+  display: none;
+}
+
+.list ul[class~="slick-dots"] li button {
+  width: 12px;
+  height: 12px;
+  background: #c9c5c9;
+  border-radius: 50%;
+  content: "";
+}
+
+.list ul[class~="slick-dots"] li[class~="slick-active"] button {
+  width: 32px;
+  height: 12px;
+  background: #136397;
+  border-radius: 10px;
+  content: "";
+}
+
+.list div[class~="slick-slider"] {
+  padding-bottom: 15px;
+}

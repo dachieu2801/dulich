@@ -1,0 +1,384 @@
+
+
+.list_homestay {
+    padding: 0 80px;
+}
+
+.list_homestay>h3 {
+    color: #1C1B1E;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+    /* 170% */
+}
+
+.btn_additional {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 64px;
+}
+
+.btn_additional>button {
+    border-radius: 8px;
+    border: 1px solid var(--logo, #136397);
+    color: var(--logo, #136397);
+
+    /* body (18/28) bold */
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 155.556% */
+    padding: 8px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.list_homestay_recent {
+    padding: 0 80px;
+    background-color: #E8F4FC;
+    padding-bottom: 100px;
+}
+
+.list_homestay_recent>h3 {
+    padding-top: 40px;
+    color: #1C1B1E;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+    /* 170% */
+}
+
+.list_homestay_city {
+    padding: 0 80px;
+
+}
+
+.city {
+    color: #1C1B1E;
+    font-size: 20px !important; 
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    /* 160% */
+}
+
+.list_homestay_city>h3 {
+    color: #1C1B1E;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+    /* 170% */
+}
+@import '../fonts.module.css';
+
+.header {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 30px 40px;
+    gap: 20px;
+    background-color: #FFF;
+}
+
+.logo_hh {
+    width: 128px;
+    height: 29px;
+}
+
+.head_left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    gap: 20px;
+}
+
+.item_menu,
+.img_item,
+.btn_login,
+.btn_regis {
+    cursor: pointer;
+}
+
+.item_menu a {
+    font-family: Roboto-Medium;
+    font-size: 16px;
+    color: var(--gray-9, #313033);
+
+/* body (16/24) medium */
+
+font-size: 16px;
+
+
+line-height: 24px; /* 150% */
+}
+
+.header_right,
+.item_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.btn_login,
+.btn_regis {
+    padding: 8px 10px;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.btn_login {
+    background: #136397;
+    border: unset;
+}
+
+.btn_regis {
+    border: 1px solid #FFFFFF;
+}
+
+.avatar_user,
+.box_user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.img_avatar {
+    width: 40px;
+    height: 40px;
+}
+
+.img_inf {
+    width: 14px;
+    height: 8px;
+}
+
+.box_infor {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    min-width: 343px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 8px 0;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15);
+}
+
+.box_body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.box_item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 15px;
+    gap: 10px;
+}
+
+.border_top {
+    border-top: 1px solid #E6E1E6;
+    padding: 0 15px;
+    padding-top: 10px;
+}
+
+.flex_de {
+    flex-direction: column;
+    align-items: start;
+    gap: 0;
+}
+
+.box_body .item_avatar {
+    width: 60px;
+    height: 60px;
+}
+
+.name,
+.box_item .item span {
+    font-family: 'Roboto-Medium';
+}
+
+.box_item .item {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.box_item .item:hover {
+    border-radius: 8px;
+    background: #E8F4FC;
+}
+
+.box_item .item .img {
+    width: 22px;
+    height: 22px;
+}
+
+.icon_menu {
+    display: none;
+    cursor: pointer;
+}
+
+.box_menu {
+    float: left;
+    width: 100%;
+}
+
+.box_menu .item {
+    display: none;
+}
+
+@media (max-width:1024px) {
+
+
+    .box_menu .item {
+        display: flex;
+    }
+
+    .icon_menu {
+        display: flex;
+        width: 40px;
+        height: 40px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .menu a {
+        color: #313033;
+    }
+
+    .box_menu {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        flex-direction: column;
+        top: 80px;
+        left: 30px;
+        min-width: 300px;
+        justify-content: start;
+        background: #FFFFFF;
+        border-radius: 20px;
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15);
+        padding: 20px;
+        z-index: 99;
+        align-items: start;
+    }
+
+    .item_menu,
+    .item_menu a {
+        width: 100%;
+    }
+
+    .menu .item {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu .item .btn_regis,
+    .menu .item .btn_login {
+        min-width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu .item .btn_login a {
+        color: #FFFFFF;
+    }
+
+    .menu .item .btn_regis {
+        border: 1px solid #136397;
+    }
+
+    .menu .item .btn_regis a {
+        color: #136397;
+    }
+}
+
+.menu_mobile {
+    display: none;
+}
+/* // */
+.list_news {
+    padding: 45px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.bgr_news {
+    background: #E8F5FC;
+}
+.hotel_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 0 10px;
+}
+
+.hotel_top_txt {
+    font-size: 40px;
+    color: rgba(28, 27, 30, 1);
+    line-height: 45px;
+}
+
+.hotel_top_item {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 35px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(230, 225, 230, 1);
+}
+
+.hotel_item {
+    color: rgba(174, 170, 175, 1);
+    cursor: pointer;
+    font-family: 'Roboto-Medium';
+}
+
+.hotel_active {
+    color: rgba(19, 99, 151, 1);
+    position: relative;
+}
+
+.hotel_active::after {
+    border: 1px solid rgba(19, 99, 151, 1);
+    width: 100%;
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+}

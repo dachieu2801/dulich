@@ -1,0 +1,12 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="car" clip-path="url(#clip0_4712_22101)">
+<path id="Vector" d="M5.83464 15.8333C6.75511 15.8333 7.5013 15.0871 7.5013 14.1667C7.5013 13.2462 6.75511 12.5 5.83464 12.5C4.91416 12.5 4.16797 13.2462 4.16797 14.1667C4.16797 15.0871 4.91416 15.8333 5.83464 15.8333Z" fill="#48464A" stroke="#48464A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M14.1667 15.8333C15.0871 15.8333 15.8333 15.0871 15.8333 14.1667C15.8333 13.2462 15.0871 12.5 14.1667 12.5C13.2462 12.5 12.5 13.2462 12.5 14.1667C12.5 15.0871 13.2462 15.8333 14.1667 15.8333Z" fill="#48464A" stroke="#48464A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M10 9.16667V5M4.16667 14.1667H2.5V9.16667L4.16667 5H11.6667L15 9.16667H15.8333C16.2754 9.16667 16.6993 9.34226 17.0118 9.65482C17.3244 9.96738 17.5 10.3913 17.5 10.8333V14.1667H15.8333H4.16667ZM12.5 14.1667H7.5H12.5ZM2.5 9.16667H15H2.5Z" stroke="#48464A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_4712_22101">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>

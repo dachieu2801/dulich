@@ -1,0 +1,271 @@
+.box_search {
+    padding: 16px 0;
+}
+
+.block_tour {
+    max-width: 1210px;
+    margin: auto;
+}
+
+.block_tour_title {
+    margin: 24px 0 8px 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: unset;
+}
+
+.count_tour {
+    font-size: 24px;
+    font-family: 'Roboto-Medium';
+}
+
+.block_bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+    gap: 24px;
+}
+
+.block_filter {
+    width: 284px;
+    height: fit-content;
+    margin-top: 57px;
+    border-radius: 16px;
+    border: 0.5px solid var(--gray-4, #AEAAAF);
+}
+
+.block_filter_top {
+    margin: 20px 0 14px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+}
+
+.block_filter_top span {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.block_range_price,
+.block_type_tour {
+    padding: 16px 16px 30px 16px;
+    border-top: 1px solid #E6E1E6;
+}
+
+.range_price_top,
+.type_tour_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.range_price_top1,
+.type_tour_top1 {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.range_price_top1 span,
+.type_tour_top1 span {
+    font-weight: 700;
+}
+
+.range_price_option {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.list_type_tour {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.type_tour {
+    display: flex;
+    gap: 8px;
+}
+
+.type_tour input {
+    width: 24px;
+}
+
+.block_filter_bottom {
+    border-top: 1px solid #E6E1E6;
+}
+
+.block_expand {
+    margin: 16px auto;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.block_expand span {
+    color: #136397;
+
+}
+
+.block_sort {
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.sort {
+    width: fit-content;
+    padding: 8px 16px;
+    font-family: 'Roboto-Medium';
+    border: none;
+    background-color: unset;
+    font-size: 20px;
+}
+
+.active_sort {
+    border-bottom: 2px solid #136397;
+    color: #136397;
+}
+
+.block_list_tour {
+    width: calc(100% - 310px);
+}
+
+.list_tour {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.tour {
+    width: 100%;
+    height: fit-content;
+    padding: 8px;
+    border-radius: 16px;
+    border: 0.5px solid var(--gray-4, #AEAAAF);
+    margin-bottom: 8px;
+    display: flex;
+    gap: 16px;
+}
+
+.block_img {
+    width: 294px;
+    position: relative;
+}
+
+.block_img img {
+    border-radius: 8px;
+}
+
+.block_subdetail {
+    display: flex;
+    gap: 40px;
+    margin: 8px 0;
+}
+
+.vehicle img {
+    width: 14px;
+}
+
+.tour_customer,
+.tour_long,
+.vehicle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.time_start {
+    margin-bottom: 20px;
+}
+
+.block_detail {
+    flex-grow: 1;
+}
+
+@media (max-width: 1024px) {
+    .block_tour {
+        padding: 0 32px;
+    }
+
+    .block_filter {
+        width: 250px;
+    }
+
+    .tour {
+        display: block;
+    }
+
+    .block_img {
+        width: 100%;
+        height: 318px;
+    }
+
+    .block_subdetail {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .tour_customer,
+    .tour_long {
+        width: 40%;
+    }
+
+    .vehicle {
+        margin-top: 8px;
+    }
+
+    .block_list_tour {
+        width: calc(100% - 270px);
+    }
+}
+
+@media (max-width: 768px) {
+    .block_img {
+        height: 260px;
+    }
+
+    .block_bottom {
+        gap: 16px;
+    }
+
+    .block_list_tour {
+        width: calc(100% - 260px);
+    }
+}
+
+@media (max-width: 450px) {
+    .block_img {
+        height: 230px;
+    }
+
+    .block_bottom {
+        display: block;
+    }
+
+    .block_list_tour {
+        width: 100%;
+    }
+
+    .block_filter {
+        width: 100%;
+        margin: 0 0 30px 0;
+        border: none;
+    }
+
+    .list_tour {
+        gap: 16px;
+    }
+
+    .tour_customer,
+    .tour_long {
+        width: 50%;
+    }
+
+    .block_filter_bottom {
+        display: none;
+    }
+}

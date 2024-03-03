@@ -1,0 +1,112 @@
+.list_item {
+    border-radius: 16px;
+    
+    margin-top: 31px;
+    gap: 8px;
+}
+
+.list_item>img {
+    border-radius: 16px 16px 0 0;
+}
+
+
+
+.homestay_txt p {
+    color: #136397
+}
+
+.homestay_txt p:first-child {
+
+    color: #DB242D;
+
+    
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.homestay_txt p:nth-child(2) {
+    border-radius: 8px;
+    background: #D2EAF9;
+    padding: 4px 8px;
+    display: inline-block;
+    
+
+}
+
+.homestay_title {
+    color: var(--text, #1C1B1E);
+
+    /* body (18/28) bold */
+ 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.homestay_review {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.homestay_location {
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+    color: var(--text, #1C1B1E);
+    /* body (16/24) regular */
+ 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+
+
+    font-size: 16px;
+
+    line-height: 24px;
+}
+.homestay_price{
+    margin-top: 53px;
+    display: flex;
+}
+.homestay_price > div:first-child {
+    color: var(--gray-7, #605D62);
+    
+    font-size: 12px;
+    text-decoration: line-through;
+    position: absolute;
+    right: 20px;
+}
+.homestay_price_coupon{
+    margin-top: 18px;
+    display: flex;
+}
+.homestay_price_coupon> div:nth-child(2){  
+    position: absolute;
+    right: 20px;
+}
+.coupon{
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.box_txt{
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: 1px solid var(--logo, #136397);
+    color: var(--logo, #136397);
+  
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
