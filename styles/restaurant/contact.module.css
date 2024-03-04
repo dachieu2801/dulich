@@ -1,0 +1,35 @@
+.icon_order,.icon_delivery,.icon_bag{
+  padding: 8px;
+  border-radius:8px;
+  text-align: center;
+}
+.icon_order{
+  background: #FFF7E6;
+  color:#FEB201; 
+}
+.icon_delivery{
+  background: #F0FBE9;
+  color: #489B1C;
+}
+.icon_bag{
+  background: #FBE9EA;
+  color: #DB242D;
+}
+.icons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+}
+.contactN{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top:24px;
+  color: var(--logo, #136397);
+}
+
+.map{
+  border-radius: 8px;
+  border: solid var(--gray-4, #AEAAAF) 0.5px;
+  margin:15px 0;
+}

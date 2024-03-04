@@ -1,0 +1,100 @@
+
+.custom_progress {
+  transform: scaleX(-1);
+}
+
+.rateTitle{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-top: 64px;
+  color: var(--logo, #136397)
+}
+.rateBox{
+  padding: 40px;
+  background: #EDF6FD;
+  height: 280px;
+  border-radius: 24px;
+  margin-top: 24px;
+  display: flex;
+  gap: 65px;
+}
+
+.sectionRate{
+  position: relative;
+}
+
+.innerText{
+  position: absolute;
+  width:160px;
+  height: 100px;
+  top: 50px;
+  left: 20px;
+  text-align:center;
+}
+
+.rateNumber{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 68px;
+  color: #136397
+}
+
+.ratestring{
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+
+
+.widthRow{
+  width:395px;
+  height:8px;
+}
+.dashboardRate{
+  display: flex;
+  margin-top: 20px;
+}
+
+.evaComment{
+  margin: 32px 63px 0 63px
+}
+
+.headEvaComment{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navEvaComment{
+  display: flex;
+}
+.pEvaComment{
+  cursor: pointer;
+  margin:8px 0;
+  padding:0 16px;
+font-size: 20px;
+font-weight: 600;
+line-height: 32px;
+}
+
+.focuspEvaComment{
+  cursor: pointer;
+  margin:8px 16px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  color: var(--logo,#136397);
+  border-bottom: solid  var(--logo,#136397) 1px; 
+}
+
+.icon{
+  color: var(--error,#DB242D);
+  margin-left:8px;
+}
+
+.comment{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 52px;
+  margin-top:24px;
+}
