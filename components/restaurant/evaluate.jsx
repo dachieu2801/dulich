@@ -5,7 +5,7 @@ import {useState, useEffect} from 'react'
 
 import Auth from '@/components/restaurant/auth'
 import Auth2 from '@/components/restaurant/auth2'
-import ContentEvaluate from '@/components/restaurant/contentEvaluate'
+import ContentEvaluate from '@/components/restaurant/contentEvaluateItem'
 
 export default function Evaluate(props) {
   const [rate, setRate] = useState (4.2)
