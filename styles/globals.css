@@ -399,3 +399,8 @@ img {
     color-scheme: dark;
   }
 }
+/* 
+.detail_custom_progress .ant-progress-circle{
+  transform: scaleX(-1);
+  
+} */

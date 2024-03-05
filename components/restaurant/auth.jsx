@@ -4,12 +4,12 @@ export default function Auth(prop) {
   
   
   return(
-    <div>
-      <img  src="/images/restaurant/avatar.png" alt="avatar" /> 
+    <div className={styles.container}>
+      <img className={styles.avartar} src="/images/restaurant/avatar.png" alt="avatar" /> 
       <div>
-        <p>Arlene McCoy</p>
+        <p className={styles.nameAuth}>Arlene McCoy</p>
         <p>
-          <img  src="/images/restaurant/pencil.svg" alt="avatar" /> 
+          <img className={styles.icon} src="/images/restaurant/pencil.svg" alt="avatar" /> 
           <span className={styles.beardDay}>14/05/2022</span>
         </p>
       </div>

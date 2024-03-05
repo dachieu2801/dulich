@@ -4,6 +4,8 @@ import { Progress } from 'antd';
 import {useState, useEffect} from 'react'
 
 import Auth from '@/components/restaurant/auth'
+import Auth2 from '@/components/restaurant/auth2'
+import ContentEvaluate from '@/components/restaurant/contentEvaluate'
 
 export default function Evaluate(props) {
   const [rate, setRate] = useState (4.2)
@@ -95,8 +97,9 @@ export default function Evaluate(props) {
          </div>
          <div className={styles.comment}>
             <Auth/>
-            <div>ádasdsadasd</div>
+            <ContentEvaluate/>
          </div>
       </div>
     </>
   )
+}

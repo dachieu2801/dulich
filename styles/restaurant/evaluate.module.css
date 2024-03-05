@@ -57,7 +57,9 @@ line-height: 32px;
 }
 
 .evaComment{
-  margin: 32px 63px 0 63px
+  margin: 32px 63px 0 63px;
+  border-bottom:solid var(--gray-2,#E6E1E6) 1px;
+
 }
 
 .headEvaComment{
